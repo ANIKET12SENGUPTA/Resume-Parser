@@ -51,9 +51,10 @@ Resume-Parser/
 │── app.py
 │── parser.py
 │── extractor.py
-│── requirements.txt
-
-⚙️ How It Works
+│── requirements.txt.
+```
+---
+## ⚙️ How It Works
 1. Resume Upload
 Users upload one or more PDF resumes through the Streamlit interface.
 
@@ -79,7 +80,9 @@ The application ranks resumes by score and displays:
 > Match score bar chart
 > Parsed resume details
 
-📥 Installation
+---
+
+## 📥 Installation
 1. Clone the repository
 > git clone https://github.com/ANIKET12SENGUPTA/Resume-Parser.git
 > cd Resume-Parser
@@ -87,10 +90,14 @@ The application ranks resumes by score and displays:
 2. Install dependencies
 > pip install -r requirements.txt
 
-▶️ Run the Application
+---
+
+## ▶️ Run the Application
 > streamlit run app.py
 
-📝 Example Usage
+---
+
+## 📝 Example Usage
 1. Open the app
 2. Enter a job description, for example:
   > Looking for a Machine Learning Engineer with Python, TensorFlow, PyTorch, Git, NLP, and data analysis skills.
