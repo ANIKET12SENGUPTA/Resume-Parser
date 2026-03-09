@@ -55,68 +55,72 @@ Resume-Parser/
 ```
 ---
 ## ⚙️ How It Works
-1. Resume Upload
-Users upload one or more PDF resumes through the Streamlit interface.
+- Resume Upload
+-Users upload one or more PDF resumes through the Streamlit interface.
 
-2. Text Extraction
-Each uploaded resume is processed using PyMuPDF to extract text content.
+- Text Extraction
+-Each uploaded resume is processed using PyMuPDF to extract text content.
 
-3. Resume Parsing
-The extracted text is analyzed to identify:
-> Name
-> Email
-> Phone number
-> Skills
+- Resume Parsing
+- The extracted text is analyzed to identify:
+    - Name
+    - Email
+    - Phone number
+    - Skills
 
-4. Job Description Matching
-The entered job description and each resume are converted into TF-IDF vectors.
+- Job Description Matching
+-The entered job description and each resume are converted into TF-IDF vectors.
 
-5. Similarity Scoring
-Cosine similarity is used to measure how closely each resume matches the job description.
+- Similarity Scoring
+-Cosine similarity is used to measure how closely each resume matches the job description.
 
-6. Ranking and Display
-The application ranks resumes by score and displays:
-> A results table
-> Match score bar chart
-> Parsed resume details
+- Ranking and Display
+- The application ranks resumes by score and displays:
+    - A results table
+    - Match score bar chart
+    - Parsed resume details
 
 ---
 
 ## 📥 Installation
-1. Clone the repository
-> git clone https://github.com/ANIKET12SENGUPTA/Resume-Parser.git
-> cd Resume-Parser
+- Clone the repository
+    - git clone https://github.com/ANIKET12SENGUPTA/Resume-Parser.git
+    - cd Resume-Parser
 
-2. Install dependencies
-> pip install -r requirements.txt
+- Install dependencies
+  - pip install -r requirements.txt
 
 ---
 
 ## ▶️ Run the Application
-> streamlit run app.py
+streamlit run app.py
 
 ---
 
 ## 📝 Example Usage
-1. Open the app
-2. Enter a job description, for example:
-  > Looking for a Machine Learning Engineer with Python, TensorFlow, PyTorch, Git, NLP, and data analysis skills.
+- Open the app
+- Enter a job description, for example:
+  - Looking for a Machine Learning Engineer with Python, TensorFlow, PyTorch, Git, NLP, and data analysis skills.
     Upload one or more PDF resumes
-4. Click PARSE & MATCH
-5. View:
-    > Resume ranking table
-    > Match score chart
-    > Parsed candidate information
+- Click PARSE & MATCH
+- View:
+    - Resume ranking table
+    - Match score chart
+    - Parsed candidate information
 
-📊 Sample Output
+---
+
+## 📊 Sample Output
 The app generates:
-  > A ranked table of resumes with:
-      > File name
-      > Match score
-      > Candidate name
-      > Skills
-  > A bar chart showing resume scores
-  > Expandable parsed details for each uploaded resume
+  - A ranked table of resumes with:
+      - File name
+      - Match score
+      - Candidate name
+      - Skills
+  - A bar chart showing resume scores
+  - Expandable parsed details for each uploaded resume
 
-🙌 Acknowledgment
+---
+
+## 🙌 Acknowledgment
 This project was built as a practical machine learning and NLP-based application to learn resume parsing, document processing, and job-resume matching.
