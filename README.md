@@ -93,8 +93,8 @@ The application ranks resumes by score and displays:
 📝 Example Usage
 1. Open the app
 2. Enter a job description, for example:
-> Looking for a Machine Learning Engineer with Python, TensorFlow, PyTorch, Git, NLP, and data analysis skills.
-  Upload one or more PDF resumes
+  > Looking for a Machine Learning Engineer with Python, TensorFlow, PyTorch, Git, NLP, and data analysis skills.
+    Upload one or more PDF resumes
 4. Click PARSE & MATCH
 5. View:
     > Resume ranking table
